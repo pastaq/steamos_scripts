@@ -9,7 +9,7 @@ if command -v steamos-readonly &>/dev/null; then
   fi
 fi
 
-TARGET_FILE="/etc/grub.d/00_header.test"
+TARGET_FILE="/etc/grub.d/00_header"
 
 # Define the two configuration sub-blocks exactly as required
 DEFAULT_BLOCK='## start header steamenv sub block
